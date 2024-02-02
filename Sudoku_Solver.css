@@ -1,0 +1,57 @@
+#sudoku-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 2px;
+}
+
+body:hover{
+    background-color: rgb(29, 93, 93);
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background-color: rgb(32, 70, 72);
+    padding: 1cm;
+    text-shadow: 0.1cm 0.1cm black;
+}
+
+h1:hover{
+    background-color: rgb(0, 0, 0);
+    text-shadow: 0.1cm 0.1cm rgb(27, 77, 99);
+}
+
+body{
+    background-color: rgb(43, 82, 118);
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #000;
+}
+
+.cell.input {
+    background-color: #eee;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 6cm;
+    height: 1cm;
+    font-weight: bolder;
+    font-size: larger;
+    background-color:darkcyan ;
+    margin-top: 0.9cm;
+    text-transform: uppercase;
+}
+
+button:hover{
+    color: white;
+
+}
